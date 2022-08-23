@@ -13,7 +13,7 @@ class Flashlight < Formula
     system "cmake", "-S", ".", "-B", "build", "-DFL_ARRAYFIRE_USE_CPU=ON", \
            "-DFL_BUILD_DISTRIBUTED=OFF", "-DFL_USE_ONEDNN=OFF", "-DFL_BUILD_TESTS=OFF", \
            "-DFL_BUILD_EXAMPLES=OFF", "-DFL_BUILD_SCRIPTS=OFF", *std_cmake_args
-    system "make", "-C", "build", "install"
+    system "make", "-C", "build", "install", "-j4"
   end
 
   test do
