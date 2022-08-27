@@ -14,6 +14,7 @@ class Flashlight < Formula
            "-DFL_BUILD_DISTRIBUTED=OFF", "-DFL_USE_ONEDNN=OFF", "-DFL_BUILD_TESTS=OFF", \
            "-DFL_BUILD_EXAMPLES=OFF", "-DFL_BUILD_SCRIPTS=OFF", "-DBUILD_SHARED_LIBS=ON", \
            *std_cmake_args
+    ENV.deparallelize
     system "make", "-C", "build", "install"
   end
 
