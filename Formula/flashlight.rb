@@ -1,9 +1,9 @@
 class Flashlight < Formula
   desc "Standalone C++ library for machine learning"
   homepage "https://fl.readthedocs.io/en/latest"
-  url "https://github.com/jacobkahn/flashlight/archive/c343e5c.tar.gz"
-  version "0.3.2"
-  sha256 "11f4c7dbc2013a44b073639ffab39897c34e8c76a61d459e655ea0b6ff8b6828"
+  url "https://github.com/flashlight/flashlight/archive/refs/tags/v0.4.tar.gz"
+  version "0.4"
+  sha256 "c5f44d2ea6937953585ddd2388794d9f6d6cc249b14caf3c313e5138b4687f29"
   license "MIT"
 
   depends_on "arrayfire" => :build
