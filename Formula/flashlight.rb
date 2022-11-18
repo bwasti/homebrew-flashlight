@@ -1,8 +1,8 @@
 class Flashlight < Formula
   desc "Standalone C++ library for machine learning"
   homepage "https://fl.readthedocs.io/en/latest"
-  url "https://github.com/flashlight/flashlight/archive/refs/tags/v0.4.tar.gz"
-  version "0.4"
+  url "https://github.com/flashlight/flashlight/archive/refs/tags/v0.4.0.tar.gz"
+  version "0.4.0"
   sha256 "c5f44d2ea6937953585ddd2388794d9f6d6cc249b14caf3c313e5138b4687f29"
   license "MIT"
 
