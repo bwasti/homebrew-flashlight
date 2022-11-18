@@ -3,7 +3,7 @@ class Flashlight < Formula
   homepage "https://fl.readthedocs.io/en/latest"
   url "https://github.com/flashlight/flashlight/archive/refs/tags/v0.4.0.tar.gz"
   version "0.4.0"
-  sha256 "c5f44d2ea6937953585ddd2388794d9f6d6cc249b14caf3c313e5138b4687f29"
+  sha256 "eda197026780a44bff5bfb0d8b747c6a30a092e3d8ab219a88c2b58a23c8ac6a"
   license "MIT"
 
   depends_on "arrayfire" => :build
